@@ -65,17 +65,7 @@ npm run build
 
 ---
 
-## 🌐 Live Demo
 
-👉 (Add your deployed link here - Vercel/Netlify)
-
----
-
-## 📸 Screenshots
-
-(Add screenshots of your UI here)
-
----
 
 ## 📌 Future Improvements
 
