@@ -75,7 +75,7 @@ const Home = () => {
                                 className="group relative h-80 rounded-2xl overflow-hidden shadow-lg transition-all duration-500 hover:-translate-y-2"
                             >
                                 <img src={cat.image} alt={cat.title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
-                                <div className="absolute inset-0 bg-gradient-to-t from-gray-950/80 via-transparent to-transparent"></div>
+                                <div className="absolute inset-0 bg-linear-to-t from-gray-950/80 via-transparent to-transparent"></div>
                                 <div className="absolute bottom-0 left-0 p-8 w-full">
                                     <p className="text-accent text-xs font-bold mb-1 uppercase tracking-widest">{cat.count}</p>
                                     <h3 className="text-white text-2xl font-bold font-display">{cat.title}</h3>
@@ -93,7 +93,7 @@ const Home = () => {
                         <div className="space-y-3">
                             <h2 className="text-4xl font-bold font-display text-gray-900">Our Products</h2>
                             <p className="text-gray-500 text-sm max-w-xl">
-                                Handpicked bestsellers from kharediofy – explore perfumes, dresses, and bedding designed for modern Pakistani lifestyles.
+                                Handpicked bestsellers from kharediofy - explore perfumes, dresses, and bedding designed for modern Pakistani lifestyles.
                             </p>
                         </div>
                         <Link
@@ -186,7 +186,7 @@ const Home = () => {
             {/* Discount/Offers Section */}
             <section className="py-24 bg-white overflow-hidden">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="bg-gradient-to-r from-primary to-accent rounded-[3rem] p-12 relative overflow-hidden shadow-2xl shadow-primary/20 group">
+                    <div className="bg-linear-to-r from-primary to-accent rounded-[3rem] p-12 relative overflow-hidden shadow-2xl shadow-primary/20 group">
                         <div className="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full -mr-20 -mt-20 blur-3xl group-hover:bg-white/20 transition-all duration-700"></div>
                         <div className="absolute bottom-0 left-0 w-64 h-64 bg-black/10 rounded-full -ml-20 -mb-20 blur-3xl"></div>
 
@@ -221,7 +221,7 @@ const Home = () => {
 
     <div className="relative w-full md:w-5/12 aspect-square flex items-center justify-center">
         {/* Abstract shape behind the bottle to make it pop on white */}
-        <div className="absolute inset-0 bg-gradient-to-tr from-amber-50 to-orange-50 rounded-3xl rotate-6 scale-90"></div>
+        <div className="absolute inset-0 bg-linear-to-tr from-amber-50 to-orange-50 rounded-3xl rotate-6 scale-90"></div>
         
         <img
             src="https://images.unsplash.com/photo-1541643600914-78b084683601?q=80&w=1904&auto=format&fit=crop"
